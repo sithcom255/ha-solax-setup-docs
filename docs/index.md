@@ -1,7 +1,7 @@
 ---
-title: Welcome to MkDocs
+title: Welcome to Solax with Home Assistant
 tags:
-  - test
+  - documentation
 ---
 
 Roamlink: [[about]] yourself.
@@ -31,6 +31,4 @@ includes/
      ...
 ```
 
-## Tags
-
-[TAGS]
+#
