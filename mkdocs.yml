@@ -1,13 +1,13 @@
-site_name: My MkDocs Template
-site_url: !ENV [SITE_URL, 'https://sosiristseng.github.io/template-mkdocs-material/']
-site_author: Wen-Wei Tseng
+site_name: Solax setup with Home Assistant
+site_url: !ENV [SITE_URL, 'https://ha-docs.sohai.app']
+site_author: sithcom
 
 # Repository
-repo_url: !ENV [REPO_URL, 'https://github.com/sosiristseng/template-mkdocs-material/']
-repo_name: !ENV [REPO_NAME, 'sosiristseng/template-mkdocs-material']
+repo_url: !ENV [REPO_URL, 'https://github.com/sithcom255/ha-solax-setup-docs']
+repo_name: !ENV [REPO_NAME, 'sithcom255/ha-solax-setup-docs']
 edit_uri: 'edit/main/docs/' # Leave blank to disable the edit button,
 
-copyright: Copyright &copy; 2016 - 2025 Wen-Wei Tseng
+copyright: Copyright &copy; 2016 - 2025sithcom
 
 # Nav bar
 # Uncomment to customize nav bar
