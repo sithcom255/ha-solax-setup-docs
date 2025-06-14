@@ -1,4 +1,10 @@
-This setup allows simple connection of your HA to Cloudflare via a tunnel. Tunnels is initiated by a outbound connection to Cloudflare, once established allows any traffic to be send over to your instance. 
+---
+title: Using Cloudflare Tunnels
+tags:
+  - documentation
+---
+
+This setup allows simple connection of your HA to Cloudflare via a tunnel. Tunnels is initiated by a outbound connection to Cloudflare, once established allows any traffic to be send over to your instance.
 
 Advantages:
 - simpler to setup than port forwarding on your router
@@ -11,7 +17,7 @@ Requirements:
 - Domain (DNS by Cloudflare)
 
 Addon used: https://github.com/brenner-tobias/addon-cloudflared
-The installation process is described quite well in the documentation. Here I will just share the  
+The installation process is described quite well in the documentation. Here I will just share the
 
 For the identity provider i choose:
 	https://developers.cloudflare.com/cloudflare-one/identity/idp-integration/google/

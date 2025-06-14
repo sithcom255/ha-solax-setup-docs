@@ -205,6 +205,11 @@
   },
   "active": "ab2dead1732e611b",
   "lastOpenFiles": [
+    "docs/index_2.md",
+    "docs/index.md~",
+    "docs/guide/cf_tunnels.md~",
+    "docs/guide/cf_tunnels.md",
+    "mkdocs.yml~",
     "docs/guide/about.md",
     "docs/guide/Domain setup with Cloudflare tunnels.md",
     "docs/guide",
