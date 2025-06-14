@@ -27,7 +27,7 @@ plugins:
   - ezlinks
   - callouts
   - blog:
-      enabled: true
+      enabled: false
       blog_dir: blog
       archive_date_format: yyyy-MM
   - tags:

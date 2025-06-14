@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Guide/about.md",
+                "file": "docs/index.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "index"
             }
           }
         ],
@@ -203,16 +203,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e36f7b70f90bae8",
+  "active": "ab2dead1732e611b",
   "lastOpenFiles": [
+    "docs/guide/about.md",
+    "docs/guide/Domain setup with Cloudflare tunnels.md",
+    "docs/guide",
+    "README.md~",
+    "docs/Guide/about.md",
+    "docs/Guide/Domain setup with Cloudflare tunnels.md",
+    "docs/index.md",
     "docs/markdown/basic.md",
     "docs/Guide",
     "Untitled",
     "docs/markdown/advanced.md",
-    "docs/Guide/Domain setup with Cloudflare tunnels.md",
-    "README.md~",
-    "docs/index.md",
-    "docs/Guide/about.md",
     "includes/example.md",
     "README.md"
   ]
