@@ -1,25 +1,18 @@
-site_name: My MkDocs Template
-site_url: !ENV [SITE_URL, 'https://sosiristseng.github.io/template-mkdocs-material/']
-site_author: Wen-Wei Tseng
+site_name: Solax setup with Home Assistant
+site_url: !ENV [SITE_URL, 'https://ha-docs.sohai.app']
+site_author: sithcom
 
 # Repository
-repo_url: !ENV [REPO_URL, 'https://github.com/sosiristseng/template-mkdocs-material/']
-repo_name: !ENV [REPO_NAME, 'sosiristseng/template-mkdocs-material']
+repo_url: !ENV [REPO_URL, 'https://github.com/sithcom255/ha-solax-setup-docs']
+repo_name: !ENV [REPO_NAME, 'sithcom255/ha-solax-setup-docs']
 edit_uri: 'edit/main/docs/' # Leave blank to disable the edit button,
 
-copyright: Copyright &copy; 2016 - 2025 Wen-Wei Tseng
+copyright: Copyright &copy; 2016 - 2025sithcom
 
-# Nav bar
-# Uncomment to customize nav bar
-# nav:
-#   - Home: index.md
-#   - About: about.md
-#   - Blog:
-#     - blog/index.md
-#   - Markdown syntax:
-#       - Basic markdown syntax: markdown/basic.md
-#       - Advanced markdown syntax: markdown/advanced.md
-#   - Tags: tags.md
+
+#nav:
+#  - Guide: guide/
+#  - Tags: tags.md
 
 # MkDocs plugins
 plugins:
@@ -27,11 +20,11 @@ plugins:
   - ezlinks
   - callouts
   - blog:
-      enabled: true
+      enabled: false
       blog_dir: blog
       archive_date_format: yyyy-MM
   - tags:
-      tags_file: index.md
+      tags_file: 1_intro.md
       enabled: !ENV [CI, false]
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
@@ -64,7 +57,7 @@ theme:
     - content.tabs.link
     - content.tooltips
     - navigation.footer
-    # - navigation.indexes # Not compatible with toc.integrate
+    - navigation.indexes # Not compatible with toc.integrate
     - navigation.instant
     - navigation.instant.progress
     - navigation.prune
